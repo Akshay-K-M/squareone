@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SquareOne Event Schedule</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #2c3e50, #3498db);
+    }
+    table {
+      background-color: white;
+    }
+    th {
+      background-color: #1f2937;
+      color: white;
+    }
+  </style>
+</head>
+<body class="text-gray-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h1 class="text-4xl font-bold text-white text-center mb-10 drop-shadow-lg">SquareOne Event Schedule</h1>
+    <div class="overflow-auto rounded-lg shadow-2xl ring-1 ring-black ring-opacity-5">
+      <table class="min-w-full divide-y divide-gray-200 text-sm">
+        <thead>
+          <tr>
+            <th class="px-6 py-3 text-left font-semibold tracking-wider">Date</th>
+            <th class="px-6 py-3 text-left font-semibold tracking-wider">Day</th>
+            <th class="px-6 py-3 text-left font-semibold tracking-wider">Event</th>
+            <th class="px-6 py-3 text-left font-semibold tracking-wider">Room</th>
+            <th class="px-6 py-3 text-left font-semibold tracking-wider">Time</th>
+          </tr>
+        </thead>
+        <tbody class="bg-white divide-y divide-gray-300">
+          <!-- Events -->
+          <tr><td class="px-6 py-4">17th July</td><td>Thursday</td><td>SQ1 Intro</td><td>Auditorium</td><td>6:00 PM - 7:30 PM</td></tr>
+          <tr><td>18th July</td><td>Friday</td><td>Icebreakers</td><td>A106, R103, R203</td><td>5:00 PM - 8:00 PM</td></tr>
+          <tr><td rowspan="2">19th July</td><td rowspan="2">Saturday</td><td>Club Workshops - Pioneers</td><td>A106</td><td>10:30 AM - 12:30 PM, 2:00 PM - 4:00 PM</td></tr>
+          <tr><td>Club Workshops - Debsoc / Karaoke Night</td><td>R103 / Amantran</td><td>10:30 AM - 12:30 PM, 2:00 PM - 4:00 PM / 8:30 PM - 10:30 PM</td></tr>
+          <tr><td rowspan="2">20th July</td><td rowspan="2">Sunday</td><td>Dual Boot Session</td><td>A106</td><td>10:00 AM - 1:00 PM, 7:00 PM - 8:30 PM</td></tr>
+          <tr><td>Club Intros</td><td>Auditorium</td><td>2:00 PM - 6:00 PM</td></tr>
+          <tr><td>21st July</td><td>Monday</td><td>E-Sports Tournament</td><td>R101, R102, R104, R105</td><td>8:30 PM - 11:30 PM</td></tr>
+          <tr><td>22nd July</td><td>Tuesday</td><td>Club Workshops - Symphony, Debsoc</td><td>Amantran, R103</td><td>5:30 PM - 7:30 PM, 8:30 PM - 10:30 PM</td></tr>
+          <tr><td>23rd July</td><td>Wednesday</td><td>Club Workshops - Symphony, Parvaaz</td><td>Amantran, Auditorium</td><td>5:30 PM - 7:30 PM, 8:30 PM - 10:30 PM</td></tr>
+          <tr><td>24th July</td><td>Thursday</td><td>Megabyte Show - 8Bit</td><td>Auditorium</td><td>5:00 PM - 10:00 PM</td></tr>
+          <tr><td>25th July</td><td>Friday</td><td>Freshie Fest</td><td>Ramanujan Basement</td><td>8:00 PM - 11:30 PM</td></tr>
+          <tr><td rowspan="2">26th July</td><td rowspan="2">Saturday</td><td>CAMP Session</td><td>Auditorium</td><td>11:00 AM - 12:30 PM</td></tr>
+          <tr><td>Sports Tournament</td><td>Multiple Courts</td><td>Full Day</td></tr>
+          <tr><td>27th July</td><td>Sunday</td><td>Sports Tournament</td><td>Multiple Courts</td><td>Full Day</td></tr>
+          <tr><td rowspan="3">28th July</td><td rowspan="3">Monday</td><td>Dual Boot Session</td><td>A106</td><td>3:30 PM - 5:00 PM</td></tr>
+          <tr><td>Club Workshops - E-Cell</td><td>R103</td><td>5:30 PM - 7:30 PM, 8:30 PM - 10:30 PM</td></tr>
+          <tr><td>Impulse, Vinci</td><td>Amantran, A106</td><td>5:30 PM - 7:30 PM, 8:30 PM - 10:30 PM</td></tr>
+          <tr><td>29th July</td><td>Tuesday</td><td>Club Workshops - Vinci, Impulse, Quizsoc</td><td>A106, Amantran, R103/R203</td><td>5:30 PM - 10:30 PM</td></tr>
+          <tr><td>30th July</td><td>Wednesday</td><td>Sands of Time - 8bit / Quizsoc</td><td>A106 / R103</td><td>5:30 PM - 10:30 PM</td></tr>
+          <tr><td>31st July</td><td>Thursday</td><td>Club Workshops - Impulse, Parvaaz</td><td>Amantran, Auditorium</td><td>5:30 PM - 10:30 PM</td></tr>
+          <tr><td>1st Aug</td><td>Friday</td><td>Junior-Senior Interaction</td><td>R103</td><td>9:00 PM - 11:00 PM</td></tr>
+          <tr><td rowspan="2">2nd Aug</td><td rowspan="2">Saturday</td><td>Brandstormers</td><td>R103, R203</td><td>10:30 AM - 12:30 PM, 2:00 PM - 4:00 PM</td></tr>
+          <tr><td>Musical Night</td><td>Basement</td><td>8:00 PM - 10:30 PM</td></tr>
+          <tr><td rowspan="2">3rd Aug</td><td rowspan="2">Sunday</td><td>Dual Boot Session</td><td>A106</td><td>10:00 AM - 1:00 PM</td></tr>
+          <tr><td>Closing Event</td><td>Auditorium</td><td>2:00 PM - 5:30 PM</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
